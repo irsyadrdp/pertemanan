@@ -1,0 +1,13 @@
+extend layout
+
+block content
+	if friends
+		ul 
+			each user in friends
+				li
+					p= user.fullname
+						h10  |  
+						a(href=`/deleteFriend/${user._id}`) Hapus teman
+						 
+	br
+	a(href="/") Kembali

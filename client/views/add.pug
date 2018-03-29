@@ -1,0 +1,14 @@
+extend layout
+
+block content
+	if datas
+		ul 
+			each user in datas
+				li
+					p= user.fullname
+						h10  |  
+						a(href=`/addFriend/${user.username}`) Tambah menjadi teman
+	
+	br
+	p Silahkan tambah teman
+	a(href="/") Kembali

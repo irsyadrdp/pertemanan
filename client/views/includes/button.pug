@@ -1,0 +1,11 @@
+.button
+    if url == '/login'
+        a(href='/register') REGISTER DULU
+    else if url == '/register'
+        a(href='/login') LOGIN LANGSUNG
+    else if url == '/'
+        a(href='/register') REGISTER DULU
+        br
+        a(href='/login') LOGIN LANGSUNG
+    else if url == '/profile'
+        a(href='/goodbye') SIGN OUT

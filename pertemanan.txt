@@ -1,0 +1,75 @@
+azhar
+bang ger
+ridwan
+ardy
+daniel
+pras
+ilham
+irsyad
+fikri
+firda
+ryan
+
+friendster: email
+
+kontak: no hp
+
+temen kerja: nama
+
+chatfriend: username
+
+game: id-angka
+
+
+===
+sign up as A
+login as A
+add friend by email/nomertelpon/nama/username/id-angka A to B
+if B is not there, error
+
+sign up as B
+login as B
+
+A login
+A add B as his friend
+A dan B temenan
+
+B login
+sees that A is his friend
+
+sign up as C
+login as C
+add A as friend
+C sees A as his friend
+
+login as B
+his friend is only A
+
+login as A
+his friend is B and C
+
+===
+client
+-html css js // bootstrap // vuejs // polymer
+-ajax, jquery ajax, axios, fetch
+-node pug
+
+server
+-mongoose: schema dan auth bcyrpt
+-route get & post
+-menghapus pertemanan
+*-edit pertemanan: teman & musuh
+
+====
+
+collection user
+-data yg register
+    -_id, nama, email, username
+
+collection datapertemanan
+-data data pertemanan
+    -_id
+        -temennya: [
+            {_id: 1231},
+            {_id: asdasd}
+        ]

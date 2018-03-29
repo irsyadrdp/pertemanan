@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    content
+        .main.container
+            .row
+                .col-md-6.col-md-offset-3
+                    h1.display-4.m-b-2 Register
+                    form(action='/register' method='POST')
+                        div.form-group
+                            label(for='nama') Nama
+                            input.form-control(type='text' id='fullname' placeholder='Nama ' name='fullname')
+                        div.form-group
+                            label(for='email') E-Mail
+                            input.form-control(type='email' id='email' placeholder='email' name='email')
+                        div.form-group
+                            label(for='email') Username
+                            input.form-control(type='text' id='username' placeholder='username' name='username')
+                        div.form-group
+                            label(for='password') Password
+                            input.form-control(type='password' id='password' placeholder='password' name='password')
+                        button.btn.btn-primary(type='submit') Daftar
+                

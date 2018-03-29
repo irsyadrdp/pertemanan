@@ -1,0 +1,10 @@
+a,p {
+    color:lightseagreen;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+footer {
+    font-size: 20px;
+}
